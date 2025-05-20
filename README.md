@@ -1,5 +1,3 @@
-# nvim-config
-
 ## File Overview
 
 *   **`init.lua`**: The primary configuration entry point. Loads subsequent Lua modules responsible for different aspects of the editor setup.
