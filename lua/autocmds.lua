@@ -13,12 +13,12 @@ vim.api.nvim_create_autocmd("BufWritePre", {
   command = "%s/\\n\\+\\%$//e"
 })
 
-vim.api.nvim_create_autocmd({ "CursorHold" }, {
-  callback = function()
-    vim.fn.timer_start(1000, function()
-      if (vim.api.nvim_get_mode().mode == "n") then
-        vim.cmd.normal { "", bang = true }
-      end
-    end)
-  end,
+vim.api.nvim_create_autocmd("BufWritePre", {
+    pattern = {"*.c", "*.cpp", "*.py"},
+    command = "lua vim.lsp.buf.format()"
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "*",
+  command = "setlocal formatoptions-=cro"
 })

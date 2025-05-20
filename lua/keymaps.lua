@@ -13,6 +13,7 @@ map("n", "<leader>d", "<cmd>%s/ /_/g<CR>")
 map("n", "<leader>f", "<cmd>FZF<CR>")
 map("n", "<leader>q", "<cmd>RunClose<CR>")
 map("n", "<leader>s", ":%s//g<Left><Left>")
+map("n", "<leader>t", "<cmd>Trouble diagnostics toggle filter.buf=0<cr>")
 map("n", "<leader>x", "<cmd>w<CR><cmd>RunCode<CR><C-l>")
 
 map("v", ";", ":")

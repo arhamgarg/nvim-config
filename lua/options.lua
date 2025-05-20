@@ -9,7 +9,6 @@ vim.opt.cursorline = true
 vim.opt.expandtab = true
 vim.opt.foldlevelstart = 99
 vim.opt.foldmethod = "indent"
-vim.opt.formatoptions = "tqj"
 vim.opt.guicursor = ""
 vim.opt.hlsearch = false
 vim.opt.ignorecase = true
