@@ -1,18 +1,18 @@
-require("lspconfig").clangd.setup({})
+vim.lsp.enable("clangd")
 
-require("lspconfig").pylsp.setup({
-  flags = {
-    debounce_text_changes = 150,
-  },
+vim.lsp.enable("pyright")
+
+vim.lsp.config("pyright", {
   settings = {
-    pylsp = {
-      plugins = {
-        pycodestyle = {
-          ignore = {"W292"},
-          ignore = {"W391"},
-          maxLineLength = 100
-        },
+    pyright = {
+      disableOrganizeImports = true,
+    },
+    python = {
+      analysis = {
+        ignore = { "*" },
       },
     },
   },
 })
+
+vim.lsp.enable("ruff")
