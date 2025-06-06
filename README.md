@@ -20,4 +20,4 @@
 
 *   **`lua/statusline.lua`**: Configures the status line using `lualine`.
 
-*   **`lua/treesitter.lua`**: Configures `nvim-treesitter` for advanced syntax analysis. Enables Treesitter-based highlighting, indentation, and automatic parser installation.
+*   **`lua/treesitter.lua`**: Configures `nvim-treesitter` for advanced syntax analysis. Enables Treesitter-based highlighting and indentation.
