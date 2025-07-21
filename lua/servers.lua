@@ -1,7 +1,5 @@
 vim.lsp.enable("clangd")
 
-vim.lsp.enable("ocamllsp")
-
 vim.lsp.enable("pyright")
 
 vim.lsp.config("pyright", {

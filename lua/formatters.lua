@@ -9,15 +9,6 @@ require("conform").setup({
     css = { "prettier" },
     html = { "prettier" },
     javascript = { "prettier" },
-    ocaml = { "ocamlformat" },
     python = { "ruff" },
-    typescript = { "prettier" },
-  },
-  formatters = {
-    ocamlformat = {
-      command = "ocamlformat",
-      args = { "--enable-outside-detected-project", "-" },
-      stdin = true,
-    },
   },
 })
