@@ -10,5 +10,6 @@ require("conform").setup({
     html = { "prettier" },
     javascript = { "prettier" },
     python = { "ruff" },
+    typescript = { "prettier" },
   },
 })

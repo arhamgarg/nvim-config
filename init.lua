@@ -1,6 +1,7 @@
 require("autocmds")
 require("colorscheme")
 require("completions")
+require("cp")
 require("formatters")
 require("keymaps")
 require("lsp")

@@ -12,6 +12,10 @@ map("n", "<leader>d", "<cmd>bdelete<CR>")
 map("n", "<leader>n", "<cmd>bnext<CR>")
 map("n", "<leader>p", "<cmd>bprevious<CR>")
 map("n", "<leader>s", ":%s//g<Left><Left>")
+map("n", "<C-h>", "<C-w>h")
+map("n", "<C-j>", "<C-w>j")
+map("n", "<C-k>", "<C-w>k")
+map("n", "<C-l>", "<C-w>l")
 
 map("n", "<leader>f", "<cmd>FZF<CR>")
 
